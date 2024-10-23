@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    background-color: #cdc2c2; /* fondo de la pagina*/
+} 
+header { 
+    font-family: "Agdasima", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+    background-color: #610909;
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px; /* encabezado*/
+} 
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+.logo {
+    width: 100px;
+    height: auto;
+}
+nav {
+    display: flex;
+    align-items: center;
+}
+.nav-list {
+    list-style: none;
+    display: flex;
+    margin-right: 20px;
+} /* para alinear el menu*/
+
+.nav-list li {
+    margin: 0 15px;
+}/* para separar el menu*/
+
+.nav-list li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+    transition: color 0.3s ease-in;
+}/* para cambiar el color de las letras del menu*/
+
+.nav-list li a:hover {
+    color: #2c0303;
+}/* para cambiar el color de las letras del menu con el cursor*/
+
+.content {
+    font-family: "Agdasima", sans-serif; 
+  font-weight: 400;
+  font-style: normal;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;/* primer conteiner de la introduccion*/
+} 
+
+
+.content h2 {
+    margin-bottom: 20px;
+}
+.content img {
+    width: 700%;
+    max-width: 500px;
+    margin-top: 20px;
+} /* imagenm de la intro*/
+
+.container {
+    display: flex;
+    align-items: flex-start;
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: rgb(209, 191, 191);
+    padding: 20px;
+    border: 6px solid #3b2525;
+} /* para los contenedores de los personajes*/
+
+.img-left {
+    width: 250px; 
+    height: 250px; 
+    margin-right: 20px;
+    border: 2px solid #610c0c;
+    border-radius: 20px;
+} /* para las imagenes de los personajes*/
+
+.styled-paragraph {
+    font-family: "Agdasima", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+    margin: 10px;
+    padding: 15px;
+    border: 1px solid #333;
+    background-color: #e6e3e3;
+    line-height: 1.6;
+    max-width: 600px;
+} /* para la descripcion de las imagenes*/
+
+
+section{
+    text-align: center;
+}
+
+footer {
+    background-color: #610909;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 20px 0;
+}
+
+.social-icons {
+    margin-top: 10px;
+}
+
+.social-icons a {
+    margin: 0 10px;
+}
+
+.social-icons img {
+    width: 50px;
+    height: 50px;
+}
